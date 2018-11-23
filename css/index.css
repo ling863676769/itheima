@@ -34,6 +34,11 @@ content: "\e908";
 .heima_topBar a:hover{
     color: #666;
 }
+.heima_topBar>.container>.row>div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
 .heima_topBar>.container>.row>div+div{
     border-left: 1px solid #ccc;
 }
@@ -74,13 +79,13 @@ content: "\e908";
     border-bottom: 1px solid #ccc;
     margin-bottom: 0;
 }
-.heima_nav .navber-brand{
+.heima_nav .navbar-brand{
     color: #777;
     height: 80px;
     line-height: 50px;
 }
-.heima_nav .navber-brand:hover,
-.heima_nav .navber-brand:focus{
+.heima_nav .navbar-brand:hover,
+.heima_nav .navbar-brand:focus{
     color: #5e5e5e;
     background-color: transparent;
 }
@@ -158,10 +163,10 @@ border-bottom: 3px solid #E92322;
         color: #ccc;
         background-color: transparent;
     }
-    .heima_nav .nvabar-link{
+    .heima_nav .navbar-link{
         color: #777;
     }
-    .heima_nav .nvabar-link:hover{
+    .heima_nav .navbar-link:hover{
         color: #333;
     }
     .heima_nav .btn-link{
@@ -177,4 +182,87 @@ border-bottom: 3px solid #E92322;
     fieldset[disabled] .heima_nav .btn-link:focus{
         color: #ccc;
     }
+}
+/* 轮播图 */
+.pc_imageBox{
+    height: 410px;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.m_imageBox{
+    width: 100%;
+    display: block;
+}
+.m_imageBox img{
+    width: 100%;
+    display: block;
+}
+/* 信息 */
+.heima_info{
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.heima_info > .container{
+    width: 910px;
+}
+.heima_info .heima_icon{
+    font-size: 30px;
+}
+.heima_info .col-md-4{
+    padding: 10px;
+}
+.heima_info a:hover{
+    color: #E92322;
+}
+/* 字体图标 */
+.heima_icon_E903::before{
+    content: "\e903";
+}
+.heima_icon_E907::before{
+    content: "\e907";
+}
+.heima_icon_E901::before{
+    content: "\e901";
+}
+.heima_icon_E900::before{
+    content: "\e900";
+}
+.heima_icon_E904::before{
+    content: "\e904";
+}
+.heima_icon_E902::before{
+    content: "\e902";
+}
+/* 预约 */
+.heima_book{
+    padding: 25px 0;
+    border-bottom:1px solid #ccc;
+}
+.heima_book >.container{
+    width: 910px;
+}
+@media screen and (max-width:768px){
+    .heima_book>.container{
+        width: 100%;
+    }
+}
+.heima_book .heima_icon{
+    font-size: 24px;
+}
+.heima_book a:hover{
+    color: #E92322;
+}
+.heima_book .book_link{
+    color: #E92322;
+    border-bottom: 1px dashed #E92322;
+}
+/* 字体图标 */
+.heima_icon_E906::before{
+    content: "e906";
+}
+.heima_icon_E905::before{
+    content: "\e905";
 }
