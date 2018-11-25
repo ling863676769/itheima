@@ -73,18 +73,18 @@
 //     });
 // }
 //初始化产品页签
-function initProduct(){
-var tabs=$('.nav-tabs-product');
-var lis=tabs.find('li');
-var width=0;
-$.each(lis,function(i,item){
-    width+=$(this).innerWidth();
-});
-tabs.width(width);
-}
-// 滑动
-itcast.iScroll({
-    swipeDom:document.querySelector('.nav-tabs-product-parent'),
-    swipeType:'x',
-    swipeDistance:1000
-});
+// function initProduct(){
+// var tabs=$('.nav-tabs-product');
+// var lis=tabs.find('li');
+// var width=0;
+// $.each(lis,function(i,item){
+//     width+=$(this).innerWidth();
+// });
+// tabs.width(width);
+// }
+// // 滑动
+// itcast.iScroll({
+//     swipeDom:document.querySelector('.nav-tabs-product-parent'),
+//     swipeType:'x',
+//     swipeDistance:1000
+// });

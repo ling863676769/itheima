@@ -86,7 +86,7 @@
     </div>
   </nav>
     <!-- 轮播图 -->
-    <div class="heima_banner">
+    <!-- <div class="heima_banner">
         <div id="carousel-example-genetic" class="carousel slide"
         data-ride="carousel">
     <ol class="carousel-indicators"></ol>
@@ -105,7 +105,38 @@ aria-hidden="true"></span>
 <span class="sr-only">Next</span>
 </a>
     </div>
-    </div>
+    </div> -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+       
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../itheima/images/01.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="../itheima/images/02.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="../itheima/images/03.jpg">
+          </div>
+        </div>
+       
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+       
+      </div>
     <!-- 信息模块 -->
     <div class="heima_info">
         <div class="heima_info hidden-xs">
@@ -376,9 +407,116 @@ aria-hidden="true"></span>
         </div>
     </div>
     <!-- 新闻模块 -->
-    <div class="heima_news"></div>
+    <div class="heima_news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="news_title">全部新闻</div>
+                </div>
+                <div class="col-md-1">
+                    <div class="news_line hidden-sm hidden-xs"></div>
+                    <ul class="nav nav-tabs-news" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                                <span class="heima_icon heima_icon_new01"></span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+                                <span class="heima_icon heima_icon_new02"></span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                                <span class="heima_icon heima_icon_new03"></span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+                                <span class="heima_icon heima_icon_new04"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="hidden-xs">2017-1-2</span>
+                                        【黑马还款】一周还款公告2018年1月11日-1月24日
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                        <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                        <div role="tabpanel" class="tab-pane" id="settings">...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer模块 -->
-    <footer class="heima_partner"></footer>
+    <footer class="heima_partner">
+        <div class="container">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li><a href="#" class="heima_icon heima_icon_partner01"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner02"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner03"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner04"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner05"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner06"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner07"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner08"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner09"></a></li>
+            </ul>
+        </div>
+    </footer>
 
 
     <!-- <script src="../itheima/lib/jquery/jquery.min.js"></script>
